@@ -130,11 +130,10 @@ public class MailService {
 
         MimeMessage message = CreateMail(mail);
 
-
-%% 사용 시 아이디, 앱 비밀번호 기입 필수 %%
-
         javaMailSender.send(message);
 
         return number;
     }
 }
+
+%% 사용 시 아이디, 앱 비밀번호 기입 필수 %%
