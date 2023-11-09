@@ -5,15 +5,6 @@
 
 1. main -> 이메일 인증 구현 html
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<title>이메일 인증 구현하기</title>
-</head>
-<script
-	src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<script type="text/javascript">
 	function sendNumber() {
 		$("#mail_number").css("display", "block");
 		$.ajax({
